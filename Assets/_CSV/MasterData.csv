@@ -1,0 +1,2 @@
+ExampleData,int id,int label1,int label2
+Text,int category,int id,string text
