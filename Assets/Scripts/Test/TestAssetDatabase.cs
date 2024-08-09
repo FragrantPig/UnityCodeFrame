@@ -1,3 +1,4 @@
+#if UNITY_ENGINE
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -42,3 +43,4 @@ public class TestAssetDatabase
         Debug.Log("Path info for asset:\n"+assetPathInfo.ToString());
     }
 }
+#endif
